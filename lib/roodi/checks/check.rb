@@ -3,7 +3,7 @@ require 'roodi/core/error'
 module Roodi
   module Checks
     class Check
-      NODE_TYPES = [:defn, :module, :resbody, :lvar, :cvar, :class, :if, :while, :until, :for, :rescue, :case, :when, :and, :or]
+      NODE_TYPES = [:defn, :module, :resbody, :lvar, :cvar, :class, :if, :while, :until, :for, :rescue, :case, :when, :and, :or, :call]
 
       def initialize
         @errors = []
