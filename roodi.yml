@@ -16,3 +16,4 @@ ParameterNumberCheck:            { parameter_count: 5 }
 DuplicateTestsCheck:             { }
 IncompleteInitializeCheck:       { }
 PrintCheck:                      { functions: 'p,puts' }
+MissingRespondsToCheck:          { }
